@@ -17,16 +17,6 @@ public class Casa {
     private Boolean temJardim;
 
 
-    public Casa(int janelas, int portas, int quartos, int salas, Boolean temGaragem, Boolean temJardim, Boolean temPiscina) {
-        this.janelas = janelas;
-        this.portas = portas;
-        this.quartos = quartos;
-        this.salas = salas;
-        this.temGaragem = temGaragem;
-        this.temJardim = temJardim;
-        this.temPiscina = temPiscina;
-    }
-
     public int getJanelas() {
         return janelas;
     }
