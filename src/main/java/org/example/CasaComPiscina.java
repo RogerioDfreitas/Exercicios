@@ -7,12 +7,12 @@ public class CasaComPiscina implements  CasaBuilder{
 
     @Override
     public void builderParedes() {
-        System.out.println("Olha o Tijolo");
+        System.out.println("Tijolo");
     }
 
     @Override
     public void builderPortas() {
-        System.out.println(" Portas");
+        System.out.println("Portas");
     }
 
     @Override
@@ -37,6 +37,6 @@ public class CasaComPiscina implements  CasaBuilder{
 
     @Override
     public Casa getResultado() {
-        return null;
+        return casa;
     }
 }

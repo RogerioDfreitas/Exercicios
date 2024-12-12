@@ -10,6 +10,11 @@ public class Diretor {
 
     public void constroiCasaComPiscina(int paredes, int portas, int janeas){
 
+        casaBuilder.builderParedes();
+        casaBuilder.builderJanelas();
+        casaBuilder.builderPortas();
+        casaBuilder.builderTelhado();
+        casaBuilder.builderPiscina();
     }
 
 }
